@@ -50,6 +50,13 @@ public class Application01 {
         System.out.println("result2 = " + result2);
         System.out.println("secondNum = " + secondNum);
 
+        int num1 = 10;
+        int addNum = num1++;
+
+        System.out.println("addNum = " + addNum);
+
+        System.out.println("num1 = " + num1);
+        
     }
     
 }
