@@ -24,7 +24,12 @@ public class Application09 {
 
         System.out.println("두 수 중 최솟값은? : " + min);
 
-        /*  */
+        /* 목차. 2. static 메소드 인 경우 */
+        /* 필기. 다른 클래스에 작성한 static 메소드의 경우 호출할 때 클래스명을 반드시 기술해야 한다. */
+        int max = Calculator.maxNumberOf(first, second);
+        System.out.println(Calculator.maxNumberOf(first, second));
+
+        System.out.println("max : " + max);
 
     }
 
