@@ -41,23 +41,23 @@ public class Application {
         // 두 과목의 평균이 60점 이상이면 합격
         // 한 과목이라도 40점 미만이면 불합격
 
-//        Scanner sc = new Scanner(System.in);
-//        System.out.print("수학 점수를 입력해주세요 : ");
-//        int math = sc.nextInt();
-//
-//        System.out.print("영어 점수를 입력해주세요 : ");
-//        int english = sc.nextInt();
-//        double avg = (math + english) / 2;
-//
-//        if(avg < 60) {
-//
-//            System.out.println("시험 불합격");
-//        } else if (english < 40 || math < 40){
-//
-//            System.out.println("한 과목 과락으로 인한 시험 불합격");
-//        } else {
-//            System.out.println("시험에 합격했습니다.");
-//        }
+        Scanner sc = new Scanner(System.in);
+        System.out.print("수학 점수를 입력해주세요 : ");
+        int math = sc.nextInt();
+
+        System.out.print("영어 점수를 입력해주세요 : ");
+        int english = sc.nextInt();
+        double avg = (math + english) / 2;
+
+        if(avg < 60) {
+
+            System.out.println("시험 불합격");
+        } else if (english < 40 || math < 40){
+
+            System.out.println("한 과목 과락으로 인한 시험 불합격");
+        } else {
+            System.out.println("시험에 합격했습니다.");
+        }
 
 
 
