@@ -58,24 +58,9 @@ public class Application {
 //        } else {
 //            System.out.println("시험에 합격했습니다.");
 //        }
-        Scanner sc = new Scanner(System.in);
-        System.out.print("수학 점수를 입력해주세요 : ");
-        int math = sc.nextInt();
-        System.out.print("영어 점수를 입력해주세요 : ");
-        int english = sc.nextInt();
 
-        int sum = math + english;
-        double avg = sum / 2;
 
-        if(avg > 60) {
 
-            System.out.println("시험에 합격");
-        } else if (math < 40 || english < 40){
-
-            System.out.println("둘 중 한 과목 과락으로 인해 불합격");
-        } else {
-            System.out.println("시험에 불합격 하셨습니다.");
-        }
 
 
     }
