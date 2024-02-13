@@ -89,27 +89,27 @@ public class D_switch {
             case "사이다" :
                 System.out.println("사이다를 선택했습니다");
                 price = 1500;
-                break;
+
 
             case "콜라" :
                 System.out.println("콜라를 선택했습니다");
                 price = 2000;
-                break;
+
 
             case "포카리" :
                 System.out.println("포카리를 선택했습니다.");
                 price = 3000;
-                break;
+
 
             case "솔의눈" :
                 System.out.println("솔의눈을 왜 선택했어요?");
                 price = 200;
-                break;
+
 
             case "맥콜" :
                 System.out.println("맥콜을 드신다구요?");
                 price = 500;
-                break;
+
         }
 
         System.out.println(price + "원을 투입해주세요");
