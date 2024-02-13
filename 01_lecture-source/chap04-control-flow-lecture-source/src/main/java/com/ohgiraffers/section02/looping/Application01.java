@@ -10,7 +10,11 @@ public class Application01 {
 //        a.testForExample2();
 //        a.testForExample3();
 //        a.testForExample4();
-        a.printSimpleGugudan();
+//        a.printSimpleGugudan();
+
+        A_nestedFor a2 = new A_nestedFor();
+        a2.printGugudanFromTwoToNine();
+
     }
 
 
