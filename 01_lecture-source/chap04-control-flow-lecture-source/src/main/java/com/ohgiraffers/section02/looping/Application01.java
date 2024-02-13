@@ -13,7 +13,10 @@ public class Application01 {
 //        a.printSimpleGugudan();
 
         A_nestedFor a2 = new A_nestedFor();
-        a2.printGugudanFromTwoToNine();
+//        a2.printGugudanFromTwoToNine();
+//        a2.printUpgradeGugudan();
+        a2.printStarInputRowTimes();
+
 
     }
 
