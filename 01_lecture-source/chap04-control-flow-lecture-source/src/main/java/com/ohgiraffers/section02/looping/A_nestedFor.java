@@ -35,4 +35,13 @@ public class A_nestedFor {
 
     }
 
+    public void printGugudanOf(int dan) {
+
+        for(int su = 1; su < 10; su++) {
+
+            System.out.println(dan + " * " + su + " = " + (dan * su));
+        }
+
+    }
+
 }
