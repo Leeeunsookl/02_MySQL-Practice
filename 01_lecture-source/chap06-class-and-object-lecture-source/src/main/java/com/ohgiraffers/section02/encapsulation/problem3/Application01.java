@@ -25,6 +25,12 @@ public class Application01 {
         System.out.println(monster3.getInfo());
 
 
+        monster3.kinds = "두치";
+        monster3.hp = -100;
+
+        System.out.println("monster3.kinds : " + monster3.kinds);
+        System.out.println("monster3.hp : " + monster3.hp);
+
 
     }
 
