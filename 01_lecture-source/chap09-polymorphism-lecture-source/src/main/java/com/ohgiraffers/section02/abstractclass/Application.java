@@ -45,6 +45,19 @@ public class Application {
 
         product.abstMethod();
 
+        // 추상클래스 본인이 가지고 있는 메소드 호출
+        product.nonStaticMethod();
+
+        // static 메소드는 그냥 사용이 가능하다. (인스턴스 생성이 불필요)
+        Product.staticMethod();
+
+        /* 필기.
+        *    추상클래스를 왜 쓰냐??
+        *   추상클래스의 추상메소드는 오버라이딩에 대한 "강제성" 이 부여된다.
+        *   따라서 여러 클래스들을 그룹화 하여
+        *   필수 기능!!! 을 정의하여 강제성을 부여해 개발 시 일관 되게 만들 수 있다.
+        *  */
+
     }
 
 }
