@@ -63,7 +63,9 @@ public class Application01 {
         /* 필기. valueOf() 를 이용하여 인스턴스를 생성하는 것을 권장한다,
         *       valueOf() 는 동일한 값이 동일한 인스턴스임을 보장한다.
         *  */
-        
+
+        System.out.println("valueOf() : " + (Integer.valueOf(123) == Integer.valueOf(123)));
+
     }
 
 }
