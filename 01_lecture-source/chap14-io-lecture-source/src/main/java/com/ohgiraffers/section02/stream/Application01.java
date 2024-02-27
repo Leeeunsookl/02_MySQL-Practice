@@ -72,6 +72,7 @@ public class Application01 {
                     *      메모리 누수(leak)가 발생하게 된다.
                     *   2. close() 메소드는 자원을 반납하며 flush() 를 해주기 때문에
                     *      close() 만 제대로 해줘도 된다.
+                    *      close() 는 반드시 마지막에 호출해주어야 한다.
                     *  */
 
                     fin.close();
