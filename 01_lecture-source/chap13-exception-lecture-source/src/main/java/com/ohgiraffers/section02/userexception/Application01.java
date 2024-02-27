@@ -17,10 +17,19 @@ public class Application01 {
         ExceptionTest et = new ExceptionTest();
 
         try {
-            et.checkEnoughMoney(-50000, 50000);
+            // 상품의 가격을 음수로 입력한 경우
+//            et.checkEnoughMoney(-50000, 50000);
 
+            // 가진 돈을 음수로 입력하는 경우
+//            et.checkEnoughMoney(50000, -10000);
 
-        } catch (PriceNegativeException e) {
+            // 가진 돈이 상품의 가격보다 적을 때
+//            et.checkEnoughMoney(50000, 10000);
+
+            // 정상적으로 구매가 가능한 경우
+            et.checkEnoughMoney(10000, 50000);
+
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
 
