@@ -27,6 +27,8 @@ public class Application {
         user2.setEnrollDate(new java.util.Date());
         System.out.println(user2.getInfo());
 
+        UserDTO user = new UserDTO();
+
     }
 
 }
