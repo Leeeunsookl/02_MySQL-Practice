@@ -32,10 +32,12 @@ SHOW GRANTS FOR 'ohgiraffers'@'%';
 -- Default Schema(기본 데이터베이스(스키마) 설정)는 'menudb'로 지정
 USE menudb;
 
+-------------------------------------------------------
 
 delete from mysql.user where User ='ohgiraffers';
 delete from mysql.db where User ='ohgirafffers';
 flush privileges;
+-------------------------------------------------------
 
 
 
@@ -165,6 +167,7 @@ COMMIT;
 
 
 
+-------------------------------------------------------
 
 
 
